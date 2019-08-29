@@ -74,14 +74,14 @@
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 
-  // Header scroll class
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('#header').addClass('header-scrolled');
-    } else {
-      $('#header').removeClass('header-scrolled');
-    }
-  });
+  // Header scroll class - Makes header auto-appear on desktop
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() > 100) {
+  //     $('#header').addClass('header-scrolled');
+  //   } else {
+  //     $('#header').removeClass('header-scrolled');
+  //   }
+  // });
 
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
